@@ -1,6 +1,6 @@
 """
 YouTube OAuth 토큰 생성 스크립트
-로컬에서 실행 → token.pickle 생성
+로컬에서 실행 → token.pickle 생성...
 """
 
 import os
@@ -84,4 +84,5 @@ if __name__ == "__main__":
         print("🎉 성공! 이제 token.pickle을 Colab에 업로드하세요.")
         print("="*50)
     else:
+
         print("\n토큰 생성 실패. 오류를 확인하세요.")
