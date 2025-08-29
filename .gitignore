@@ -1,0 +1,24 @@
+
+# 민감한 파일
+.env
+client_secret.json
+token.pickle
+*.pickle
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# 로그
+logs/
+*.log
+
+# 데이터 파일
+data/videos/*
+data/scripts/*

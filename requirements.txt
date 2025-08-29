@@ -1,0 +1,19 @@
+# Core
+openai
+google-genai>=1.30.0          # Veo3용 (import: from google import genai)
+python-dotenv>=1.0.0
+notion-client>=2.2.0
+requests>=2.32.4              # 코랩이 2.32.4 요구함
+opencv-python==4.8.1.78       # 인스타 업로드
+
+# CLI/품질
+colorama>=0.4.6
+
+# GUI / Video
+gradio>=5.42.0                # 5.x는 websockets 13+ 호환 (genai와 양립)
+moviepy==1.0.3
+imageio-ffmpeg==0.4.9
+pytz>=2024.1
+
+# Optional
+pandas>=2.2.2                 # 3.12 휠 있음. 필요 없으면 빼도 됨.
