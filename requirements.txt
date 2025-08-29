@@ -17,3 +17,9 @@ pytz>=2024.1
 
 # Optional
 pandas>=2.2.2                 # 3.12 휠 있음. 필요 없으면 빼도 됨.
+
+google-api-python-client>=2.113.0
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
